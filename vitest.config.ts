@@ -10,8 +10,8 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@template/basic/test": path.join(__dirname, "test"),
-      "@template/basic": path.join(__dirname, "src")
+      "@tatemz/effect-forms/test": path.join(__dirname, "test"),
+      "@tatemz/effect-forms": path.join(__dirname, "src")
     }
   }
 })
